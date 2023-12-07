@@ -5,8 +5,8 @@ Console.WriteLine( "Template Behavioral Design Pattern example" );
 AlgebraExpert akgebraExpert = new();
 akgebraExpert.SolveTheProblem();
 
-GeometryExpert geometryExpert = new GeometryExpert();
+GeometryExpert geometryExpert = new();
 geometryExpert.SolveTheProblem();
 
-SoftwareDeveloper softwareDeveloper = new SoftwareDeveloper();
+SoftwareDeveloper softwareDeveloper = new();
 softwareDeveloper.SolveTheProblem();
